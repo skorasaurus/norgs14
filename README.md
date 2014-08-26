@@ -1,22 +1,28 @@
 norgs14
 =======
 
+How GIS is becoming Open 
+
+ - open or die?! (slide har, har)
+ - 
+
 presentation given at the Northeast Ohio Regional GIS Symposium
 
 outline/slides: 
 
 
 (explain why open source + data is cool in a few ways)
- - customizable 
  - no vendor lockin 
  - someelse likely has written a better list than me in a more convincing fashion 
  - facilitate inter-agency sharing; no longer phone calling/emailing for the current version of data. 
 
+(I'm going with the presumption that I'm not going to convince them to use qgis overnight, but show them what's possible using open data and open programs...)
 
 So, what cool projects are going on? 
 
-
 openaddresses ! 
+
+ - all addresses, in one place. 
 
  - all addresses; EVERYWHERE! 
 
@@ -24,10 +30,30 @@ openaddresses !
 myself and LBRS (and ask for license from any attendees)
 
 
+OpenTrails 
+
+- 
+
+TOOLS:
+
+
+geojson.io ! 
+
+- make gif of satellite view in it 
+
+- gif of drawing points 
+
+- then gif of saving to CSV/SHP/whatever
+
+
 Openstreetmap 
+
+- NYC 
 
 
 Mapbox
+
+- 
 
 
 qgis 
