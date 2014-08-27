@@ -40,16 +40,15 @@ openaddresses !
  - all addresses, in one place. 
 
  - all addresses; EVERYWHERE! 
+ - same format, 
+ - tools being developed 
+ - supported by 
+ - want to earn $10! (Summit, geauga, lorain, )
 
  - show that mapbox blog map of how ohio has the best coverage in the state, thanks to 
 myself and LBRS (and ask for license from any attendees)
 
 
-OpenTrails 
-
-- Used by 10 Agencies right now including 
-
-Cleveland Metroparks and Summit Metroparks! 
 
 TOOLS:
 
@@ -65,8 +64,18 @@ geojson.io !
 
 Openstreetmap 
 
+- instant updates
+
 - NYC 
 
+-
+
+
+OpenTrails 
+
+- Used by 10 Agencies right now including 
+
+Cleveland Metroparks and Summit Metroparks! 
 
 Mapbox
 
@@ -93,3 +102,7 @@ Natural Earth, OMG!
 
 HEY YOU CAN GET INVOLVED TOO! 
 (don't need code necessarily)
+
+- Want to open your data: 
+ * (seriously) contact USODI contact@usodi.org or 
+ * call 202-719-5315

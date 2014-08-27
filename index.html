@@ -5,11 +5,12 @@
     background-image: url(http://www.lpi.usra.edu/education/skytellers/polaris/images/fig2.jpg);
     background-repeat: repeat;
   }
-  .geojsonraw {
-    background-image: url(img/maptimegj-raw.png);
+  .odc {
+    background-image: url(img/odc2.png);
     background-repeat: no-repeat;
     background-position: center 25px;
-    background-color: #fff;
+    background-color: #111;
+    background-size: 100%;
     color: #111;
   }
 
@@ -17,44 +18,101 @@
 <script src='big.js'></script>
 </head><body>
 
-<div>yaya <strong>open geo! </strong> by will skora</div>
+<div>An overview of <strong>open source geo tools! </strong> by will skora</div>
 
 <div>Go to <a href="http://github.com/skorasaurus/norgs14">http://github.com/skorasaurus/norgs14</a> to follow along.</div>
 <div>FYI: Links have a <a href="#4">purple background</a>.)</div>
 <div>This is not <em> everything </em>!</div>
 
-<div> <em> geojson.io </em> what's <a href="http://geojson.org">GeoJSON</a>, btw</div> 
+<div> what's <a href="http://geojson.org">GeoJSON</a>, btw</div> 
 
 GeoJSON features need a <em>type</em>, <em>geometry</em>, and <em>properties</em>.</div>
 
-
-<div data-bodyclass="geojsonraw">"THIS IS THE BODY CLASS"</div>
+<div> no rasters, topology, not great on space </div> 
+<div> used for web maps and small data sets (<1500) </div> 
 <div><img src="img/maptimegj-raw.png"></div>
+<div> one file </div> 
 
-
-<div> geojson.io exports to SHP, oh my! </div> 
+<em> geojson.io </em> 
+<div> geojson.io exports to SHP, (and CSV) oh my! </div> 
 <div><img src="img/geojsonio.gif"></div>
+<div> instantly shareable </div> 
 
 
-<div><a href="http://en.wikipedia.org/wiki/Geodesy">Wikipedia</a> says: <strong>the scientific discipline that deals with the <em>measurement</em> and <em>representation</em> of the Earth, including its gravitational field, in a three-dimensional time-varying space.</strong></div>
-
-<div><em>OpenAddresses</em></div>
-
-<div><img src="openaddresscoverage.png"></div>
+<div><em><a href="http://www.openaddresses.io">OpenAddresses.io</em></a> </div>
 
 
-<div>tired of going to all different sites<strong>break it down</strong>.</div>
-<div><em>We can all agree:</em> the Earth is <strong>three-dimensional</strong>.</div>
-<div>But the Earth is <em>not</em> a sphere. It is its <strong>own fancy shape</strong>.</div>
+<div data-bodyclass="odc"></div>
+<div> and get $10 (Lorain, Summit, Medina!) </div>
 
-<div> <em>geoid.</em></div> 
+
+<div>uh-oh, all these new formats and tools?</div>
+
+<div>but there's qgis! </div>
+<div> available for Mac/Windows/Linux </div> 
+
+<div> <a href="http://www.gdal.org/ogr_formats.html">OGR Vector Formats</a><br>
+  and rasters oh my! </div> 
+
+  <div> projection? no problem </div> 
+
+<div>But the Earth is <em>not</em> a sphere. It is its <strong>own fancy shape</strong> </div>
+
+
+<div> <em>OpenStreetMap </em>     like wikipedia, but for google maps</div> 
+
+<div> liberal license; allows </div> 
+
+
+<div><img src="img/sf_layers.png"></div> 
+
+<div> used by businesses/orgs: foursquare, craigslist, flickr, and more </div> 
+
+
+<div><em> your updates > available to world in minutes </em> </div>  
+
+
+<div> awesome examples of it in action </div> 
+
+<div><img src="img/downtownparkingmap.gif"></div> 
+
+<div> the philly downtown parking map </div>
+
+
+<div> How do I get those <em> purdy tiles?! </em> </div> 
+
+<div> mapbox </div> 
+
+<div> mapbox.js / leaflet </div> 
+
+<div> 
+</div> 
+
+<div> How can I use them?! </div> 
+
+<div>postGIS<strong>SQL with geo</strong>.</div>
+<div> used internally by Cleveland Metroparks </div>
+
+<div> Open Trails</div> 
+
 <div> emerging open data specification for trails </div> 
 
-<div data-bodyclass="geoid">"Lumpy Earth"</div>
-rch</em> will yield <strong>so much more.</strong></div>
-<div>Keep learning! <em>It just gets more fun!</em></div>
+<div> designed with OpenStreetMap in mind! </div> 
+<div> </div>
+
+<div> </div> 
+
+<div> rch</em> will yield <strong>so much more.</strong></div>
+
+<div> want to open your data?     
+<em> free </em>          
+<a href="mailto:contact@usodi.org">contact@usodi.org</a> </div> 
+
+<div>Want to learn more and participate!? <em>Join #maptime!</em></div>
 <div>Thanks!</div>
-<div>My name is Will I am on Twitter at <a href="http://twitter.com/skorasaurus">@skorasaurus</a>! MaptimeOAK is on Twitter at <a href="http://twitter.com/opengeocle">@opengeocle</a> Holler at us!</div>
+<div>My name is Will Skora       at (twitter/github) <a href="http://twitter.com/skorasaurus">@skorasaurus</a>! </div>
+
+<div> Open Geo Cleveland is on Twitter at <a href="http://twitter.com/opengeocle">@opengeocle</a> Holler at us!</div>
 
 </body>
 </html>
