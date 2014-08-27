@@ -18,6 +18,21 @@ outline/slides:
 
 (I'm going with the presumption that I'm not going to convince them to use qgis overnight, but show them what's possible using open data and open programs...)
 
+
+GEOJSON 
+
+
+- used to  store geometries of web maps; 
+- JSON (javascript object notation) 
+- machine readable, makes it really powerful for scripting and automation! 
+- designed for web maps 
+
+ (topojson)
+
+
+D3 at all? 
+
+
 So, what cool projects are going on? 
 
 openaddresses ! 
@@ -32,7 +47,9 @@ myself and LBRS (and ask for license from any attendees)
 
 OpenTrails 
 
-- 
+- Used by 10 Agencies right now including 
+
+Cleveland Metroparks and Summit Metroparks! 
 
 TOOLS:
 
@@ -66,6 +83,9 @@ postgis
 - 
 - used by Cleveland Metroparks (@smathermather > postgis sensei)
 - 
+
+
+Natural Earth, OMG! 
 
 
 (maybe d3?)
