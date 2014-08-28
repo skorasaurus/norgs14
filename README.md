@@ -42,7 +42,7 @@ openaddresses !
  - all addresses; EVERYWHERE! 
  - same format, 
  - tools being developed 
- - supported by 
+ - supported by USODI 
  - want to earn $10! (Summit, geauga, lorain, )
 
  - show that mapbox blog map of how ohio has the best coverage in the state, thanks to 
@@ -64,22 +64,26 @@ geojson.io !
 
 Openstreetmap 
 
-- instant updates
-
-- NYC 
-
--
 
 
 OpenTrails 
+
+- penTrails  allows each of the agencies in this network to share data with one another and their common visitors  through applications that consume OpenTrails-compliant dat
+
+- GEOJSON based 
 
 - Used by 10 Agencies right now including 
 
 Cleveland Metroparks and Summit Metroparks! 
 
+
+
 Mapbox
 
-- 
+TileMill 
+
+- multi-level web maps 
+
 
 
 qgis 
@@ -94,7 +98,6 @@ postgis
 - 
 
 
-Natural Earth, OMG! 
 
 
 (maybe d3?)

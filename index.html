@@ -14,26 +14,33 @@
     color: #111;
   }
 
+  .alan {
+    background-image: url(img/alan-osmresize.png);
+    background-color: #111;
+    background-repeat: no-repeat;
+    background-position: center 25px;
+    color: #111;
+  }
+
 </style>
 <script src='big.js'></script>
 </head><body>
 
-<div>An overview of <strong>open source geo tools and data! </strong> by will skora</div>
+<div>a brief update of <strong>open source geo tools and data! </strong> by Will Skora</div>
 
 <div>Go to <a href="http://github.com/skorasaurus/norgs14">http://github.com/skorasaurus/norgs14</a> to follow along.</div>
 <div>FYI: Links have a <a href="#4">purple background</a>.)</div>
-<div>This is not <em> everything </em>!</div>
 
-<div> what's <a href="http://geojson.org">GeoJSON</a>, btw</div> 
+<div> What's <a href="http://geojson.org">GeoJSON</a>, btw</div> 
 
 GeoJSON features need a <em>type</em>, <em>geometry</em>, and <em>properties</em>.</div>
 
 <div> no rasters, topology, not great on space </div> 
-<div> used for web maps and small data sets (<1500) </div> 
+<div> used for web maps and small data sets ( 1500) </div> 
 <div><img src="img/maptimegj-raw.png"></div>
 <div> one file (contains CRS) </div> 
 
-<em> <a href="http://geojson.io"> geojson.io </a> </em> 
+<em> <a href="http://geojson.io"> geojson.io </a> </em> </div>
 <div> geojson.io exports to SHP, (and CSV) oh my! </div> 
 <div><img src="img/geojsonio.gif"></div>
 <div> instantly shareable </div> 
@@ -41,22 +48,27 @@ GeoJSON features need a <em>type</em>, <em>geometry</em>, and <em>properties</em
 <div>postGIS<strong>postgreSQL with geo</strong></div>
 
 <div> spatial database - conduct spatial and non-spatial queries </div>
+<div> much smaller than SHPs </div> 
 
 <div> pgrouting! </div> 
 
-<div> used internally by Cleveland Metroparks </div>
+<div> used by Cleveland Metroparks </div>
 
 <div>uh-oh, all these new formats?! </div>
 
 <div>but there's QGIS! </div>
 <div> available for Mac/Windows/Linux </div> 
 
-<div> <a href="http://www.gdal.org/ogr_formats.html">vector conversion done by OGR </a><br> <div>
+<div> <a href="http://www.gdal.org/ogr_formats.html">vector conversion done by OGR </a><br> </div>
 <div> and rasters <em> oh my! </em> </div> 
+
+<div> data editing, analysis, map compsition, and more </div> 
 
   <div> projection? no problem </div> 
 
-<div> Plug-ins! </div> 
+<div><img src="img/sf_layers.png"> </div> 
+
+<div> Plug-ins! <em> written in python </em> </div> 
 
   <div> less crashes </div> 
   <div> Plug-ins! </div> 
@@ -71,10 +83,12 @@ GeoJSON features need a <em>type</em>, <em>geometry</em>, and <em>properties</em
 
 
 <div><img src="img/sf_layers.png"></div> 
+<div><img src="img/caselayers.gif"></div> 
+<div> entire planet: </div> 
 
-<div> used by businesses/orgs: foursquare, craigslist, flickr, and more </div> 
+<div> used by businesses/orgs: foursquare, craigslist, flickr, pinterest, and more</div> 
 
-<div><img src="img/alanosm.png"> </div>
+<div data-bodyclass="alan"></div>
 
 <div><em> your updates to map > available to world in minutes </em> </div>  
 
@@ -84,22 +98,26 @@ GeoJSON features need a <em>type</em>, <em>geometry</em>, and <em>properties</em
 
 <div><img src="img/downtownparkingmap.gif"></div> 
 
+
 <div><img src="img/berlin.gif"></div> 
+
 <div> How do I get those <em> purdy tiles?! </em> </div> 
 
-<div> mapbox </div> 
+<div> mapbox!    <em> Tilemill and Mapbox-Studio </em> </div> 
 
 <div> an full stack
   alternative to the google api </div> 
 
-<div> mapbox.js / leaflet </div> 
- 
-
  <div> done in javascript </div> 
  <div> v. lightweight </div> 
+
+<div> mapbox.js / leaflet </div> 
+ 
+ <div> <img src="img/editingintm2.gif"> </div>
+
+
  
 <div> How can I use them?! </div> 
-
 
 
 <div> Open Trails</div> 
@@ -107,8 +125,9 @@ GeoJSON features need a <em>type</em>, <em>geometry</em>, and <em>properties</em
 <div> emerging open data specification for trails </div> 
 
 <div> designed with OpenStreetMap in mind! </div> 
-<div> </div>
+<div><img src="img/opentrailssegments.png"> </div>
 
+<div> a href="http://iswitrs.chp.ca.gov/Reports/jsp/userLogin.jsp" </div> 
 
 <div><em><a href="http://www.openaddresses.io">OpenAddresses.io</em></a> </div>
 
@@ -116,16 +135,13 @@ GeoJSON features need a <em>type</em>, <em>geometry</em>, and <em>properties</em
 <div data-bodyclass="odc"></div>
 <div> and get $10 (Lorain, Summit, Medina!) </div>
 
-
-<div> </div> 
-
-<div> rch</em> will yield <strong>so much more.</strong></div>
-
 <div> learn programming </div> 
 
 <div> want to open your data?     
 <em> get help. </em> (for free)          
 <a href="mailto:contact@usodi.org">contact@usodi.org</a> </div> 
+
+<div> credits: Asean poster ( Mathieu Pellerin) </div> <div> additional #maptime slides (alan, lyzi, mike)
 
 <div>Want to learn more and participate!? <em>Join #maptime!</em></div>
 <div>Thanks!</div>
@@ -135,3 +151,4 @@ GeoJSON features need a <em>type</em>, <em>geometry</em>, and <em>properties</em
 
 </body>
 </html>
+ 
