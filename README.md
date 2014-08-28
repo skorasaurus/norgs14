@@ -99,6 +99,9 @@ Natural Earth, OMG!
 
 (maybe d3?)
 
+USODI 
+
+ - founded by Tim Berners-Lee 
 
 HEY YOU CAN GET INVOLVED TOO! 
 (don't need code necessarily)
