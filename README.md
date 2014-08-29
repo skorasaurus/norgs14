@@ -4,7 +4,9 @@ presentation given at the Northeast Ohio Regional GIS Symposium
 
 presentation viewable at: http://skorasaurus.github.io/norgs14/
 
-What's new in Open Data and Open Geospatial 
+What's new in Open Data and Open Geospatial software (audience for those professionally familiar with GIS, ESRI products but minimal to open source, good for a half hour talk);
+
+README is my VERY rough notes. 
 ====== 
 
 outline/slides: 
