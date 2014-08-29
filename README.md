@@ -1,12 +1,11 @@
 norgs14
 =======
-
-How GIS is becoming Open 
-
- - open or die?! (slide har, har)
- - 
-
 presentation given at the Northeast Ohio Regional GIS Symposium
+
+presentation viewable at: http://skorasaurus.github.io/norgs14/
+
+What's new in Open Data and Open Geospatial 
+====== 
 
 outline/slides: 
 
@@ -83,7 +82,7 @@ Mapbox
 TileMill 
 
 - multi-level web maps 
-
+- 
 
 
 qgis 
